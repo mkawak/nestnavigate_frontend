@@ -1,4 +1,5 @@
-# NestNavigate Frontend
+# 🏠 NestNavigate Frontend – Gamified Learning Platform
+📘 React-based dashboard for first-time homebuyers
 
 This is the frontend dashboard for the NestNavigate, a gamified learning platform for first-time homebuyers. Built using React.
 
@@ -8,7 +9,7 @@ This is the frontend dashboard for the NestNavigate, a gamified learning platfor
 - **Backend (Heroku)**: [https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com](https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com)
 - **API Docs**: [https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com/docs](https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com/docs)
 
-## Overview
+## 📝 Overview
 
 NestNavigate helps first-time homebuyers learn through gamified modules. This frontend enables users to:
 
@@ -66,7 +67,7 @@ npm start
 npm run build
 ```
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - **Frontend:** React, React Hooks
 - **HTTP Client:** Axios
@@ -75,7 +76,7 @@ npm run build
 - **Hosting:** Vercel
 
 
-## ⏱ Time Spent
+## 🕒 Time Spent
 
 Total time spent on the frontend development: **3-4 hours**
 - Initial setup and configuration: 30 minutes
