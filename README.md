@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# NestNavigate Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend dashboard for the NestNavigate, a gamified learning platform for first-time homebuyers. Built using React.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+- **Frontend (Vercel)**: [https://nestnavigate-frontend.vercel.app](https://nestnavigate-frontend.vercel.app)
+- **Backend (Heroku)**: [https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com](https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com)
+- **API Docs**: [https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com/docs](https://nestnavigate-backend-fb7e09b71ac1.herokuapp.com/docs)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+NestNavigate helps first-time homebuyers learn through gamified modules. This frontend enables users to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View their profile and total coins earned
+- Track learning progress across modules
+- View recent completed lessons and activity
+- Complete lessons and get real-time updates
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ User Profile Section
+- Displays user name and coin count
+- Shows total progress across modules
 
-### `npm run build`
+### 📚 Module Progress Grid
+- Displays sample modules with visual progress
+- Shows lesson completion status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🕒 Recent Activity Feed
+- Lists recent lessons completed
+- Displays coin rewards and timestamps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧠 Interactive Elements
+- “Complete Lesson” buttons
+- Real-time coin counter and progress bar updates
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup Instructions
 
-### `npm run eject`
+### 1. Clone the Repository
+```bash
+git clone https://github.com/mkawak/nestnavigate_frontend.git
+cd nestnavigate_frontend
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Environment Variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Modify a `config.js` file in the root with the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+API_BASE_URL = "https://LocalHost or you Backend API";
+```
 
-## Learn More
+### 4. Run Development Server
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5. Build for Production
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
 
-### Code Splitting
+- **Frontend:** React, React Hooks
+- **HTTP Client:** Axios
+- **Styling:** CSS3
+- **State Management:** React useState/useEffect
+- **Hosting:** Vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## ⏱ Time Spent
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Total time spent on the frontend development: **3-4 hours**
+- Initial setup and configuration: 30 minutes
+- Component development (Dashboard, Pages, Profile, Modules): 2 hours
+- API integration and state management: 1.5 hours
+- Styling and responsive adjustments: 30 minutes
