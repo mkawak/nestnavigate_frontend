@@ -1,0 +1,77 @@
+.dashboard {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-section,
+.modules-section,
+.activity-section {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.profile-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.module-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.module-card {
+    flex: 1 1 calc(48% - 1rem);
+    background-color: #f1f6fd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-4px);
+}
+
+.module-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 0.75rem;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.4s ease;
+}
+
+.activity-feed {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+    color: #555;
+}
